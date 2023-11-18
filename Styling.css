@@ -1,0 +1,109 @@
+body{
+    background-color: #e0e0e0;
+}
+
+section{
+    padding: 10px;
+}
+.rem{
+    background-color: white;
+}
+
+h1{
+    letter-spacing: 3px;
+}
+.box1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+}
+
+.float-transport{
+    position: float;
+}
+
+.float-price{
+    position: float;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 30px;
+}
+.heading{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.form-section{
+    padding: 5px;
+    flex: 1;
+}
+form{
+    display: flex;
+}
+
+#buy{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #687373;
+    margin-top: 10px;
+    color: #fcfcfc;
+}
+
+table{
+    border-collapse: collapse;
+    border-color: rgb(253, 9, 62);
+}
+th, td{
+    border: 1px soild black;
+    padding: 10px;
+}
+th{
+    background-color: black;
+    color: aqua;
+}
+
+strong{
+    color: #2493df;
+}
+
+input[type="number"]{
+    padding: 2px;
+    text-align: center;
+    width: 50px;
+}
+
+input[type="button"]{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 146, 4);
+    font-weight: bold;
+    font-size: 16px;
+    color: whitesmoke;
+    border:none;
+    border-radius: 20px;
+    
+}
+input[type="button"]:hover{
+    background-color: rgb(135, 253, 38);
+}
+
+footer{
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.choose{
+    font-size: 16px;
+    font-weight: bold;
+}
